@@ -8,11 +8,11 @@
 ## Modern JavaScript Loading
 
 - Default
-  <img src="/Assets/default.png" width="200" height="auto" />
+  <img src="/Assets/default.png" width="300" height="auto" />
 - Async
-  <img src="/Assets/async.png" width="200" height="auto" />
+  <img src="/Assets/async.png" width="300" height="auto" />
 - Defer
-  <img src="/Assets/defer.png" width="200" height="auto" />
+  <img src="/Assets/defer.png" width="300" height="auto" />
 
 ## Remark
 
