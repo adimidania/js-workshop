@@ -7,11 +7,16 @@
 
 ## Modern JavaScript Loading
 
-- Default
-  <img src="/Assets/default.png" width="300" height="auto" />
-- Async
+### Default
+
+<img src="/Assets/default.png" width="300" height="auto" />
+
+### Async
+
   <img src="/Assets/async.png" width="300" height="auto" />
-- Defer
+
+### Defer
+
   <img src="/Assets/defer.png" width="300" height="auto" />
 
 ## Remark
