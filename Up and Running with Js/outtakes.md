@@ -9,16 +9,32 @@
 
 ### Default
 
-<img src="/Assets/default.png" width="300" height="auto" />
+<img src="/Assets/default.png" width="450" height="auto" />
 
 ### Async
 
-  <img src="/Assets/async.png" width="300" height="auto" />
+  <img src="/Assets/async.png" width="450" height="auto" />
 
 ### Defer
 
-  <img src="/Assets/defer.png" width="300" height="auto" />
+  <img src="/Assets/defer.png" width="450" height="auto" />
 
 ## Remark
 
 - Nowadays, we are not putting the script at the end of the HTML file, It's an old fashion, we are always putting it in the head section, using async or defer.
+
+## JavaScript Modules
+
+- For a better understanding, check the JavaScript Modules folder. We used the same script.js and we just split it into two Js files for a better clarity!
+- Keep in mind, when you add `type=module` to the script tag, you set the loading to defer.
+- Unfortunately modules only work via HTTP(s), so all you need to do is use a local web server. You can't display the result without using Live Server or another alternative.
+- Usually, we put classes in modules, not objects.
+
+## Quiz
+
+- Q1: When does the browser execute JavaScript?
+- A1: By default: When the script is encountered. If the script is set to "async", when the script is fully loaded. If the script is set to "defer", when the entire HTML page is rendered.
+- Q2: What happens when you defer JavaScript?
+- A2: The browser loads the JavaScript asynchronously when it is encountered, then waits until all HTML is rendered before executing the script.
+- Q3: JavaScript modules are heavily used in frameworks like React and Vue. What is the advantage of using modules?
+- A3: Modules enable modularization of code where individual functions, components, data objects, and other parts can be separated into individual files
