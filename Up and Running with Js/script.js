@@ -17,10 +17,16 @@ const backpack = {
     right: 26,
   },
   lidOpen: false,
+  /**
+   * We can declare the method like so:
+   * toggleLid(lidStatus) {}
+   * However, the declarations below are more readable!
+   */
   toggleLid: function (lidStatus) {
     this.lidOpen = lidStatus;
     updateBackpack(`Lid status changed.`);
   },
+  // newStrapLength Method
   newStrapLength: function (lengthLeft, lengthRight) {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
