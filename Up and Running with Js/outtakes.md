@@ -7,9 +7,12 @@
 
 ## Modern JavaScript Loading
 
-![Default!](/Assets/default.png "This is default")
-![Async!](/Assets/async.png "This is default")
-![Default!](/Assets/defer.png "This is default")
+- Default
+  <img src="/Assets/default.png" width="200" height="auto" />
+- Async
+  <img src="/Assets/async.png" width="200" height="auto" />
+- Defer
+  <img src="/Assets/defer.png" width="200" height="auto" />
 
 ## Remark
 
