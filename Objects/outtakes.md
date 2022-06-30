@@ -10,3 +10,4 @@
 - We usually work with the dot notation. However, the bracket notation allows us to do more things. First of all, we can pass a variable inside the brackets `object["variable"]`, of course this variable must contain a string that define a property that already exists within our object. Second of all, we can access property names than contain digits at the begining or hyphens `object["first-name"]`. We can't achieve that using the dot notation.
 - You can change the value of the property to anything you like, string, number, boolean etc.
 - A class is a template for our object.
+- Check `Backpack.js` and `BackpackFunction.js` to see different ways of declaring a class.
