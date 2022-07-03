@@ -13,3 +13,5 @@
 - We use the `=` for assignments.
 - For comparison, we use `==` to check if two variables, let's say `a` and `b`, has values that look the same (If `a` is an integer with a value of 5, and `b` is a string with a value of `"5"`, the condition will be evaluated to True). So the outtake here, `==` doesn't care about the data type.
 - We can do an absolute equivalence test by adding an extra equal symbol `===`. Now we have three equal symbols. This looks for absolute equality. `a` and `b` have to be EXACTLY the same.
+- A tricky thing about `++a` and `a++`. The first one says: "Increment a by one than do something with it", and the second one says: "Do something with a, then increment it by one".
+-
