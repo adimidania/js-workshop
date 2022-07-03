@@ -14,4 +14,10 @@
 - For comparison, we use `==` to check if two variables, let's say `a` and `b`, has values that look the same (If `a` is an integer with a value of 5, and `b` is a string with a value of `"5"`, the condition will be evaluated to True). So the outtake here, `==` doesn't care about the data type.
 - We can do an absolute equivalence test by adding an extra equal symbol `===`. Now we have three equal symbols. This looks for absolute equality. `a` and `b` have to be EXACTLY the same.
 - A tricky thing about `++a` and `a++`. The first one says: "Increment a by one than do something with it", and the second one says: "Do something with a, then increment it by one".
--
+
+## Quiz
+
+- Q1: What happens if you use a named variable without first declaring it using the var, let, or const keywords?
+- A1: A global var is created with the name and value assignment.
+- Q2: In what scenario should you use var instead of let to define a variable?
+- A2: When you need a globally scoped reassignable variable available to all functions and statements.
