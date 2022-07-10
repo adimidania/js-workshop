@@ -6,3 +6,4 @@
 - This method returns the first encountered element. If we want to retrieve all the elements, we use `querySelectorAll()` instead. This method returns an array.
 - `document.querySelector("main li").forEach(item => item.style.color = "red";`.
 - We have two other interesting methods `getElementsByClassName()` and `getElementById()`. These two methods are older than `querySelector()`. For example, If we want to retrieve the elements that have two classes (let's say "navitem link"), we can access them like so `getElementsByClassName("navitem link")`.
+-

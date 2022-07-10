@@ -8,7 +8,7 @@ let color = "purple";
 console.log(color);
 
 function headingColorVar() {
-  color = "blue";
+  color = "Pinky";
   var item = "box";
   console.log("Inside function " + color);
 }
@@ -20,7 +20,7 @@ function headingColorLet() {
 
 headingColorVar();
 headingColorLet();
-// This will display blue
+// This will display Pinky
 console.log(color);
 // And since var is function-scoped, we can't access item from here
 // This will cause an error
