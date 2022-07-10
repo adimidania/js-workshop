@@ -25,3 +25,8 @@
   - `parent.appendChild(child)` does the same thing as `parent.append(child)`. The only difference is that it returns the child back.
   - `parent.replace()` does replace an old child with a brand new one.
   - `parent.insertBefore()` allows us to insert an element right before the parent.
+
+## Quiz
+
+- Q1: What is the difference in the return from the element.className and element.classList properties?
+- A1: element.className returns a string containing all classes appended to the element. element.classList returns a DOMTokenList with each class appended to the element.
