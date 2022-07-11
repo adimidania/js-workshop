@@ -39,7 +39,7 @@ console.log("Do more math:", doMoreMath);
 // })();
 
 /**
- * Arrow functions. Keep mind that arrow functions aren't hoisted, we can call them only
+ * Arrow functions. Keep mind that arrow functions aren't hoisted. We can call them only
  * after their declaration. Also, Arrow functions don't work inside objects.
  */
 
