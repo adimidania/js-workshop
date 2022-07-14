@@ -6,3 +6,13 @@
 - `console.log(booleanVar? "Print if True" : "Print if False");`.
 - `&&` for AND, `||` for OR.
 - The `map` method allows us to go through an array, do something with its elements, and return that into a brand new array.
+- Anonymous Function is a function that does not have any name associated with it. Normally we use the function keyword before the function name to define a function in JavaScript, however, in anonymous functions in JavaScript, we use only the function keyword without the function name.
+
+## Quiz
+
+- Q1: What is meant when we say a function has a callback?
+- A1: A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+- Q2: Can we use arrow functions inside an object (as a method)?
+- A2: Arrow functions cannot be used to write object methods because, as you have found, since arrow functions close over the this of the lexically enclosing context, the this within the arrow is the one that was current where you defined the object.
+- Q3:
+- A3:
