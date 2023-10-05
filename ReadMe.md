@@ -1,5 +1,8 @@
-# About this repository
+# JavaScript Workshop
 
-Javascript notes and exercises (from LinkedIn Javascript Essentials Training). All written by me!
+## 📝 About this repository
 
-<img src="/Assets/certificate.png"/>
+This repository contains my personal notes along with some exercises about JavaScript from LinkedIn Learning.
+
+**Made with so much 💗 by Dania** 
+
