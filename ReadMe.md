@@ -1,4 +1,4 @@
-# JavaScript Workshop
+# Javascript Workshop
 
 ## 📝 About this repository
 
